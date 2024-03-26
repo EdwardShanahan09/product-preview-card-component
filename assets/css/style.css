@@ -28,4 +28,30 @@ html {
 }
 
 body {
+  background-color: var(--color-cyan);
+  font-family: var(--font-family-body);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+img,
+picture,
+source {
+  width: 100%;
+  display: block;
+}
+
+.card {
+  background-color: var(--color-white);
+  width: 343px;
+  border-radius: 10px;
+}
+
+@media (min-width: 900px) {
+  .card {
+    display: flex;
+    width: 60rem;
+  }
 }
