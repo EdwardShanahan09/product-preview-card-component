@@ -51,6 +51,33 @@ source {
   border-radius: 10px;
 }
 
+.card__text {
+  padding: 2.4rem;
+}
+
+h3 {
+  color: var(--color-dark-gray-blue);
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+}
+
+h1 {
+  font-size: 3.2rem;
+  font-family: var(--font-family-title);
+  line-height: 3.2rem;
+  margin-bottom: 1.6rem;
+}
+
+p {
+  color: var(--color-dark-gray-blue);
+  font-size: 1.4rem;
+  line-height: 23px;
+  margin-bottom: 2.4rem;
+}
+
 @media (min-width: 900px) {
   .card {
     display: flex;
@@ -65,5 +92,9 @@ source {
     border-top-left-radius: 10px;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 10px;
+  }
+
+  .card__text {
+    padding: 3.2rem;
   }
 }
