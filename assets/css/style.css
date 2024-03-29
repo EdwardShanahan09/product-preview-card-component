@@ -92,6 +92,7 @@ p {
 h2 {
   color: var(--color-cyan);
   font-size: 3.2rem;
+  font-family: var(--font-family-title);
   margin-right: 1.9rem;
 }
 
